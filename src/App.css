@@ -134,3 +134,37 @@ button:hover {
   transform: translateY(-10px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
+
+
+
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.movie-card {
+  background-color: white;
+  justify-items: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card h3 {
+  margin: 1;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: inset;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+
+iframe {
+  display:block;
+  margin: 20px auto;
+}
